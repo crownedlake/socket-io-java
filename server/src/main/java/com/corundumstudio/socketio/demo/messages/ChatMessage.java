@@ -1,14 +1,13 @@
-package com.corundumstudio.socketio.demo;
+package com.corundumstudio.socketio.demo.messages;
 
-public class ChatObject {
-
+public class ChatMessage {
     private String userName;
     private String message;
 
-    public ChatObject() {
+    public ChatMessage() {
     }
 
-    public ChatObject(String userName, String message) {
+    public ChatMessage(String userName, String message) {
         super();
         this.userName = userName;
         this.message = message;
@@ -17,6 +16,7 @@ public class ChatObject {
     public String getUserName() {
         return userName;
     }
+
     public void setUserName(String userName) {
         this.userName = userName;
     }
@@ -24,6 +24,7 @@ public class ChatObject {
     public String getMessage() {
         return message;
     }
+
     public void setMessage(String message) {
         this.message = message;
     }
